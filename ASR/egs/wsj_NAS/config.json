@@ -1,0 +1,27 @@
+{
+    "candidate": {
+        "base": [
+            "tdnn-C1D1Nln",
+            "tdnn-C1D2Nln",
+            "tdnn-C2D1Nln",
+            "tdnn-C2D2Nln"
+        ]
+    },
+    "net": "MFRNet",
+    "net_configs": {
+        "block_list": [
+            6
+        ],
+        "pos_subsample": 3,
+        "idim_sub":640,
+        "odim_sub":640,
+        "dropout_sub":0.5,
+        "idim": 120,
+        "odims": [
+            640
+        ],
+        "num_classes": 72,
+        "dropout": 0.5
+    }
+}
+
