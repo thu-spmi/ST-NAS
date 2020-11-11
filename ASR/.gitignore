@@ -1,0 +1,6 @@
+CATscripts/**
+egs/**/local
+egs/**/conf
+egs/**/cmd.sh
+egs/**/path.sh
+egs/**/run.sh
