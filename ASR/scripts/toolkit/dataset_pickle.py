@@ -3,12 +3,12 @@ Copyright 2020 SPMI-CAT
 Modified by Zheng Huahuan
 '''
 from torch.utils.data import Dataset
-import kaldi_io
 import numpy as np
 import torch
 import sys
 import pickle
 sys.path.append('./ctc-crf')
+import kaldi_io
 
 
 class SpeechDataset(Dataset):

@@ -831,7 +831,7 @@ def train(model: nn.Module, trainloader, testloader, optimizer, lr_scheduler, sa
 
             # save model for inference
             torch.save(model.module.infer, saved_path +
-                       "/model.bestforinfer.pt".format(epoch))
+                       "/model.bestforinfer.pt")
         elif state == 2:
             break
         else:
